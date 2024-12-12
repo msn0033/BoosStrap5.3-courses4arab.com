@@ -261,14 +261,14 @@
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb m-4">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Add Customer</li>
+            <li class="breadcrumb-item active" aria-current="page">view Customer</li>
           </ol>
         </nav>
         <span><strong>Id : </strong>213456798</span>
       </div>
 
       <form class="p-4">
-        <div class="row gy-2 mt-3" aria-label=" f&l">
+        <div class="row gy-2" aria-label=" f&l">
           <div class="col-md-6 lh-1">
             <label for="firstname" class="form-label">FirstName</label>
             <input type="text" id="firstname" class="form-control" placeholder="Ali...">
@@ -315,9 +315,14 @@
           </div>
         </div>
         <div class="col-12 mt-4">
-          <button type="submit" class="btn btn-primary"> Submit</button>
+          <button type="submit" class="btn btn-primary btn-sm"><i class="bi bi-pencil-square"></i> Update</button>
+          <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodel">
+            <i class="bi bi-trash"></i>
+            Delete
+          </button>
         </div>
       </form>
+ 
 
     </section>
 
