@@ -203,8 +203,7 @@
 
   <main class="d-flex flex-nowrap">
 
-    <div id="sidebarid" class="position-relative d-flex flex-column  flex-shrink-0 p-3 text-dark text-bg-dark sidebar" >
-   
+    <div id="sidebarid" class="position-relative d-flex flex-column  flex-shrink-0 p-3 text-dark text-bg-dark sidebar">
       <button onclick="toggleSidebar()" class="closed btn text-white fs-3 position-absolute  translate-middle">
         <!-- <span class="visually-hidden">New alerts</span> -->
         <i class="bi bi-x-circle"></i>
@@ -214,13 +213,11 @@
           <i class="fs-1 bi bi-lightning-charge"></i>
           <span class="fs-4 sidebar-text">Murad</span>
         </a>
-       
       </div>
-
       <hr>
       <ul class="nav nav-pills flex-column mb-auto ">
         <li class="nav-item">
-          <a href="#" class="nav-link text-white  aactive" aria-current="page">
+          <a href="/" class="nav-link text-white  aactive" aria-current="page">
             <svg class="bi pe-none me-2" width="16" height="16">
               <use xlink:href="#home" />
             </svg>
@@ -228,7 +225,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="./user/add.html" class="nav-link text-white">
             <svg class="bi pe-none me-2" width="16" height="16">
               <use xlink:href="#speedometer2" />
             </svg>
@@ -244,7 +241,7 @@
         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
           data-bs-toggle="dropdown" aria-expanded="false">
           <img src="https://picsum.photos/200/300" alt="" width="40" height="40" class="rounded-circle me-2">
-          <strong>murad</strong>
+          <strong class="sidebar-text">murad</strong>
         </a>
         <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
           <li><a class="dropdown-item" href="#">New project...</a></li>
@@ -259,7 +256,7 @@
     </div>
     <div class="b-example-divider b-example-vr"></div>
 
-    <section>
+    <section class="w-100">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb m-4">
           <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -267,7 +264,129 @@
         </ol>
       </nav>
 
-      <table class="table "></table>
+      <table class="table table-bordered text-center border  ">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">FullName</th>
+            <th>Gander</th>
+            <th>Country</th>
+            <th>Age</th>
+            <th>last update</th>
+            <th>Action</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="col">1</th>
+            <td>test1</td>
+            <td>test2</td>
+            <td>test3</td>
+            <td>test4</td>
+            <td>test5</td>
+            <td>
+              <div>
+                <a href="./user/view.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="./user/update.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-pencil-square"></i>
+                </a>
+                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodel">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="col">1</th>
+            <td>test1</td>
+            <td>test2</td>
+            <td>test3</td>
+            <td>test4</td>
+            <td>test5</td>
+            <td>
+              <div>
+                <a href="./user/view.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="./user/update.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-pencil-square"></i>
+                </a>
+                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodel">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="col">1</th>
+            <td>test1</td>
+            <td>test2</td>
+            <td>test3</td>
+            <td>test4</td>
+            <td>test5</td>
+            <td>
+              <div>
+                <a href="./user/view.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="./user/update.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-pencil-square"></i>
+                </a>
+                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodel">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="col">1</th>
+            <td>test1</td>
+            <td>test2</td>
+            <td>test3</td>
+            <td>test4</td>
+            <td>test5</td>
+            <td>
+              <div>
+                <a href="./user/view.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="./user/update.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-pencil-square"></i>
+                </a>
+                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodel">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="col">1</th>
+            <td>test1</td>
+            <td>test2</td>
+            <td>test3</td>
+            <td>test4</td>
+            <td>test5</td>
+            <td>
+              <div>
+                <a href="./user/view.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="./user/update.html" class="btn btn-primary btn-sm">
+                  <i class="bi bi-pencil-square"></i>
+                </a>
+                <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodel">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+            </td>
+          </tr>
+       
+
+        </tbody>
+      </table>
 
     </section>
 
@@ -280,3 +399,23 @@
 </body>
 
 </html>
+
+
+<!-- Modal -->
+<div class="modal fade" id="deletemodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Do You Delete Item?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
